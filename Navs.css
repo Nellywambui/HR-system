@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: SansSerif;
+    padding: 0;
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-image: url("fashion-7336161_960_720(2).jpg");width: 80%;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: peru;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: purple;
+    text-transform: uppercase;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: purple;
+    position: relative;
+}
+.content .par{
+   padding-left: 20px;
+    padding-bottom:25px;
+    font-family: SansSerif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: SansSerif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    color: green;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: peru;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 35px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration:none;
+    color: gold;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: yellow;
+    font-size: 45px;
+}
+.form{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    border-radius: 10px;
+    padding: 20px ;
+}
+.form input{
+    color: blue;
+    font-family: Chilanka;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+.form p{
+    color: hotpink;
+    font-family: aakar;
+
+.form h2{
+    width: 200px;
+    font-size: 22px;
+    font-family: SansSerif;
+    text-align: center;
+    background-color: grey;
+    border-radius: 10px;
+}
+.btn{
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+margin-bottom: 10px;
+    text-align: center;
+}
+.btn:hover{
+background-color: yellow;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+font-family: Chilanka;
+    font-size: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+.form .link.a{
+text-decoration: none;
+color: black;
+}
